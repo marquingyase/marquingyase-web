@@ -1,0 +1,74 @@
+export const metadata: Metadata = {
+  title: {
+    default: "Home | marquingyase",
+    template: "%s | marquingyase",
+  },
+  description: "Follow marquingyase for tech, design, and creative projects.",
+  openGraph: {
+    title: "marquingyase",
+    description: "Tech, design, and creative projects. Follow on social media @marquingyase.",
+    url: "https://marquingyase.com",
+    siteName: "marquingyase",
+    images: [
+      {
+        url: "https://marquingyase.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "marquingyase.com homepage",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "marquingyase",
+    description: "Follow for tech, design, and creative content.",
+    creator: "@marquingyase",
+    images: ["https://marquingyase.com/twitter-card.jpg"],
+  },
+  metadataBase: new URL("https://marquingyase.com"),
+};
+
+
+
+
+
+
+<head>
+        {/* Google Tag */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-8YS5CKVGMJ`}
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                
+                  gtag('config', 'G-8YS5CKVGMJ');
+                `}
+        </Script>
+
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "marquingyase",
+            "url": "https://marquingyase.com",
+            "sameAs": [
+              "https://facebook.com/marquingyase",
+              "https://youtube.com/@marquingyase",
+              "https://instagram.com/marquingyase",
+              "https://tiktok.com/@marquingyase",
+              "https://www.pinterest.com/marquingyase/",
+              "https://x.com/marquingyase",
+              "https://www.linkedin.com/in/marquingyase/"
+            ],
+            "description": "Follow marquingyase for tech, design, and creative projects.",
+            "image": "https://marquingyase.com/avatar.svg",
+          })}
+        </script>
+      </head>
