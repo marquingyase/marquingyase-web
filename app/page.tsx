@@ -115,7 +115,7 @@ export default function HoldingPage() {
       </nav>
 
       {/* Hero Section */}
-      <main className="max-w-6xl mx-auto px-6 pt-24 pb-16 md:pb-24">
+      <main className="max-w-6xl mx-auto px-6 pt-16 pb-16 md:pb-24">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Text Content */}
           <div className="space-y-8">
