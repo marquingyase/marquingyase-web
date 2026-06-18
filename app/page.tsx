@@ -215,7 +215,7 @@ export default function HoldingPage() {
       </main>
 
       {/* ===== NEW SERVICES SECTION ===== */}
-      <section className="py16 md:py-24 px-6 bg-gray-50" id="services">
+      <section className="py-16 md:py-24 px-6 bg-gray-50" id="services">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p
             className="text-sm font-semibold tracking-[0.2em] uppercase"
