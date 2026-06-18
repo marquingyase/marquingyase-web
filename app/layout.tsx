@@ -1,4 +1,5 @@
 import { Poiret_One, Poppins } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 import { Metadata } from "next";
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         {/* <CustomCursor /> */}
         {children}
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ""} />
       </body>
     </html>
   );
