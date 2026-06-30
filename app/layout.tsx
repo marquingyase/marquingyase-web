@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Marquingyase provides web development, graphic design, branding, IT support, computer maintenance, website design, and digital solutions for businesses in Ghana and worldwide.",
+    "marquingyase provides web development, graphic design, branding, IT support, computer maintenance, website design, and digital solutions for businesses in Ghana and worldwide.",
 
   keywords: [
     "marquingyase",
