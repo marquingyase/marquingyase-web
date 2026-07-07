@@ -96,7 +96,7 @@ export default function HoldingPage() {
     <div className="min-h-screen bg-white text-black">
       {/* Navigation */}
       <nav className="w-full sticky top-0 z-10 border-b bg-white border-gray-100">
-        <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+        <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
           <Image
             src="/logos/long-blue-logo.svg"
             alt="marquingyase logo"
@@ -215,71 +215,73 @@ export default function HoldingPage() {
       </main>
 
       {/* ===== NEW SERVICES SECTION ===== */}
-      <section className="py-16 md:py-24 px-6 bg-gray-50" id="services">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <p
-            className="text-sm font-semibold tracking-[0.2em] uppercase"
-            style={{ color: "#191bdf" }}
-          >
-            What I Do
-          </p>
-          <h2 className="text-3xl md:text-5xl font-bold mt-4 leading-tight">
-            Services that <span style={{ color: "#191bdf" }}>empower</span> your
-            digital presence
-          </h2>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          {/* Web Development */}
-          <div className="p-8 rounded-2xl border border-gray-100 bg-white hover:border-gray-200 transition-all hover:-translate-y-1 group">
-            <div
-              className="w-14 h-14 rounded-full flex items-center justify-center mb-6"
-              style={{ backgroundColor: "#191bdf20" }}
+      <section className="py-16 md:py-24 bg-gray-50" id="services">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <p
+              className="text-sm font-semibold tracking-[0.2em] uppercase"
+              style={{ color: "#191bdf" }}
             >
-              <Code size={28} style={{ color: "#191bdf" }} />
-            </div>
-            <h3 className="text-2xl font-bold mb-3">Web Development</h3>
-            <p className="text-gray-600 leading-relaxed">
-              Custom websites, business websites, portfolios, landing pages,
-              Next.js applications and web solutions.
+              What I Do
             </p>
+            <h2 className="text-3xl md:text-5xl font-bold mt-4 leading-tight">
+              Services that <span style={{ color: "#191bdf" }}>empower</span>{" "}
+              your digital presence
+            </h2>
           </div>
 
-          {/* Graphic Design */}
-          <div className="p-8 rounded-2xl border border-gray-100 bg-white hover:border-gray-200 transition-all hover:-translate-y-1 group">
-            <div
-              className="w-14 h-14 rounded-full flex items-center justify-center mb-6"
-              style={{ backgroundColor: "#ff00ff20" }}
-            >
-              <Palette size={28} style={{ color: "#ff00ff" }} />
+          <div className="grid md:grid-cols-3 gap-6">
+            {/* Web Development */}
+            <div className="p-8 rounded-2xl border border-gray-100 bg-white hover:border-gray-200 transition-all hover:-translate-y-1 group">
+              <div
+                className="w-14 h-14 rounded-full flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#191bdf20" }}
+              >
+                <Code size={28} style={{ color: "#191bdf" }} />
+              </div>
+              <h3 className="text-2xl font-bold mb-3">Web Development</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Custom websites, business websites, portfolios, landing pages,
+                Next.js applications and web solutions.
+              </p>
             </div>
-            <h3 className="text-2xl font-bold mb-3">Graphic Design</h3>
-            <p className="text-gray-600 leading-relaxed">
-              Logo design, flyers, posters, social media graphics, branding and
-              visual identity design.
-            </p>
-          </div>
 
-          {/* IT Support */}
-          <div className="p-8 rounded-2xl border border-gray-100 bg-white hover:border-gray-200 transition-all hover:-translate-y-1 group">
-            <div
-              className="w-14 h-14 rounded-full flex items-center justify-center mb-6"
-              style={{ backgroundColor: "#31db0620" }}
-            >
-              <Monitor size={28} style={{ color: "#31db06" }} />
+            {/* Graphic Design */}
+            <div className="p-8 rounded-2xl border border-gray-100 bg-white hover:border-gray-200 transition-all hover:-translate-y-1 group">
+              <div
+                className="w-14 h-14 rounded-full flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#ff00ff20" }}
+              >
+                <Palette size={28} style={{ color: "#ff00ff" }} />
+              </div>
+              <h3 className="text-2xl font-bold mb-3">Graphic Design</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Logo design, flyers, posters, social media graphics, branding
+                and visual identity design.
+              </p>
             </div>
-            <h3 className="text-2xl font-bold mb-3">IT Support</h3>
-            <p className="text-gray-600 leading-relaxed">
-              Computer troubleshooting, software installation, maintenance and
-              technical support.
-            </p>
+
+            {/* IT Support */}
+            <div className="p-8 rounded-2xl border border-gray-100 bg-white hover:border-gray-200 transition-all hover:-translate-y-1 group">
+              <div
+                className="w-14 h-14 rounded-full flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#31db0620" }}
+              >
+                <Monitor size={28} style={{ color: "#31db06" }} />
+              </div>
+              <h3 className="text-2xl font-bold mb-3">IT Support</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Computer troubleshooting, software installation, maintenance and
+                technical support.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Footer / Contact Section */}
       <footer className="bg-black text-white py-20 px-6" id="contact">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
               <p
